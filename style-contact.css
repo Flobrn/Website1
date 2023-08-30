@@ -1,0 +1,28 @@
+body{
+    background-color: #40514e;
+    display: block;
+    text-align: center;
+    height: 100%;
+}
+
+.container{
+    background-color: #D1DDEB;
+    color: #6D849E;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+h1{
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 30px;
+    margin-bottom: 5px;
+}

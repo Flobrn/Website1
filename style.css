@@ -1,0 +1,123 @@
+body{
+    background-color: #40514e;
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+.container{
+    display: block;
+    position: relative;
+    margin-top: 100px;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;   
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+img{
+    overflow-clip-margin: content-box;
+}
+
+.header-block{
+    background-color: #EFF2DF;
+    color: #759E96;
+    font-family: "Sacramento", cursive;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 20px;
+    top: 40px
+}
+
+.title{
+    padding-top: 100px;
+}
+
+.title h1{
+    font-size: 4rem;
+}
+
+.subtitle p{
+    font-size: 2rem;
+}
+
+.middle-block{
+    background-color: #D1DDEB;
+    color: #6D849E;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.middle-block h3{
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+
+.shrek{
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.bottom-block{
+    background-color: #EBDAA2;
+    color: #665728;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.footer{
+    background-color: #9E9575;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.skills{
+    background-color: #E3F0FF;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+
+.skill-block{
+    display: grid;
+    background-color: #E3F0FF;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+    color: #5CA8FF;
+}
+
+.skill-block img{
+    grid-column-start: 2;
+    max-width: 300px;
+    max-height: 150px;
+    margin-bottom: 50px;
+}
+
+.bar-text{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: justify;
+}
+
+.prog-text{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: justify;
+}
+
+.footer a{
+    color: white;
+}
